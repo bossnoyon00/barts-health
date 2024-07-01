@@ -1,33 +1,33 @@
 import React from 'react';
 const services = [
     {
-        icon: 'https://i.ibb.co/jk9G1Ng/s1.png',
-        title: 'Visual Design',
-        description: 'Crafting visually appealing and user-friendly designs to enhance user experience.'
+        icon: 'https://i.ibb.co/MBwqZRq/health-care-black-glyph-icon-260nw-1859845591-removebg-preview.png',
+        title: 'Emergency Services',
+        description: 'Details about the emergency services, including 24/7 availability and response times.'
     },
     {
-        icon: 'https://i.ibb.co/422LSMX/s2.png',
-        title: 'Development',
-        description: 'Building robust and scalable applications tailored to meet your business needs.'
+        icon: 'https://i.ibb.co/853V8nR/hospital-003-512.webp',
+        title: 'Surgical Facilities',
+        description: 'Information on operating rooms, surgical technology, and recovery areas.'
     },
     {
-        icon: 'https://i.ibb.co/BndxY94/s3.png',
-        title: 'QA Testing',
+        icon: 'https://i.ibb.co/dfSpXZt/medical.png',
+        title: 'Body Testing',
         description: 'Ensuring the highest quality of your products through comprehensive testing services.'
     },
     {
-        icon: 'https://i.ibb.co/gwJgYXR/s4.png',
-        title: 'IT Management',
-        description: 'Managing and optimizing your IT infrastructure for better performance and reliability.'
+        icon: 'https://i.ibb.co/yY2w7xZ/safety-at-work.png',
+        title: 'Health Management',
+        description: 'Managing and optimizing your health infrastructure for better performance and reliability.'
     },
     {
-        icon: 'https://i.ibb.co/JFfMRGX/s5.png',
-        title: 'Cyber Security',
-        description: 'Protecting your business from cyber threats with advanced security solutions.'
+        icon: 'https://i.ibb.co/MVXjMjL/family-insurance.png',
+        title: 'Life Health Security',
+        description: 'Protecting your health from any virus with advanced life security solutions.'
     },
     {
-        icon: 'https://i.ibb.co/QQMnH3n/s6.png',
-        title: 'Wireless Connectivity',
+        icon: 'https://i.ibb.co/ZJxBcHC/x-ray.png',
+        title: 'X-ray',
         description: 'Providing seamless and secure wireless connectivity solutions for your business.'
     }
 ];
@@ -35,13 +35,13 @@ const services = [
 const Services = () => {
     return (
         <section className="py-10 ">
-            <h2 className='text-4xl mb-7 font-bold'>Our Services</h2>
+            <h2 className='text-4xl mb-7 font-bold'>Our Facility</h2>
             <div className="container mx-auto px-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {services.map((service, index) => (
                         <div key={index} className="service-card bg-white p-6 rounded-lg shadow-md text-center">
                             <div className="icon mb-4">
-                                <img src={service.icon} alt={`Service ${index + 1} Icon`} className="mx-auto" />
+                                <img style={{width:'80px', height:'71px'}} src={service.icon} alt={`Service ${index + 1} Icon`} className="mx-auto" />
                             </div>
                             <h2 className="service-title text-2xl font-semibold mb-2">{service.title}</h2>
                             <p className="description text-gray-600 mb-4">{service.description}</p>

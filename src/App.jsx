@@ -7,6 +7,8 @@ import Services from './components/Home/Services'
 import Featured from './components/Home/Featured'
 import { useRef } from 'react'
 import OurPlan from './components/Home/OurPlan'
+import DoctorGallery from './components/Home/DoctorGallery'
+import Testimonial from './components/Home/Testimonial'
 
 function App() {
 
@@ -21,12 +23,14 @@ function App() {
     <>
       <Header></Header>
       <Banner onContactClick={handleScrollToContactForm}></Banner>
+      <DoctorGallery></DoctorGallery>
       <Services></Services>
       <Featured></Featured>
       <OurPlan></OurPlan>
       <div ref={contactFormRef}>
         <ContactForm></ContactForm>
       </div>
+      <Testimonial></Testimonial>
       <Footer></Footer>
     </>
   )

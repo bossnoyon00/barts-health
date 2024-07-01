@@ -5,7 +5,7 @@ const ContactForm = () => {
         <section id="contact" className='mt-6 mb-8 '>
 
             <div className='my-10 '>
-                <h3 className='text-4xl mb-2 font-bold'> Let's Us Know About Your Project Idea!</h3>
+                <h3 className='text-4xl mb-2 font-bold'>Share Your Vision for Exceptional Healthcare!</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum maxime eaque adipisci, <br /> architecto veniam vitae blanditiis deserunt beatae
                 </p>
             </div>

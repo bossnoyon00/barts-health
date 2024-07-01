@@ -1,0 +1,7 @@
+.gallery-large {
+    grid-column: span 1.5 / span 1.5;
+}
+
+.gallery-small {
+    grid-column: span 1 / span 1;
+}
